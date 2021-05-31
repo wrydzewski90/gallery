@@ -1,0 +1,109 @@
+.wrapper {
+  font-size: 20px;
+  color: black;
+  width: 233px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrapper .header {
+  color: #2a9bfb;
+  padding: 30px;
+  background-color: #bce0fd;
+  position: relative;
+  font-size: 10px;
+}
+
+.wrapper .header .title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.wrapper .buttonClose {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 55%;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding: 3.2px 5.5px 3.2px 5.5px;
+}
+
+.wrapper .buttonClose .closeIcon {
+  color: black;
+  font-size: 7px;
+  color: #87c7fd;
+}
+
+.wrapper .content {
+  position: relative;
+}
+
+.wrapper .content .galleryImage {
+  width: 233px;
+}
+
+.wrapper .buttonPrev {
+  position: absolute;
+  left: 0;
+  top: 34%;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: #9da3a7 solid 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .buttonPrev .angleLeft {
+  border: none;
+  color: #9da3a7;
+  font-size: 9px;
+}
+
+.wrapper .buttonNext {
+  position: absolute;
+  right: 0;
+  top: 34%;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  border: #39a2fb solid 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .buttonNext .angleRight {
+  border: none;
+  color: #39a2fb;
+  font-size: 9px;
+}
+
+.wrapper .author {
+  font-size: 8px;
+  color: #58b1fc;
+  border: #bce0fd solid 2px;
+  border-radius: 3px;
+  padding: 5px 20px 3px 20px;
+  margin-left: 7px;
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+}
+/*# sourceMappingURL=Modal.module.css.map */

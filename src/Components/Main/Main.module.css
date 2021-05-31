@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.wrapper .left {
+  background-color: #7fc4fd;
+  width: 180px;
+  position: relative;
+}
+
+.wrapper .left .hexagonImage {
+  position: absolute;
+  left: -100%;
+  top: -35%;
+}
+
+.wrapper .right {
+  background-color: #f1f9ff;
+  width: 400px;
+  padding: 80px 0;
+}
+
+.wrapper .right .title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 35px;
+  color: #3fa5fb;
+}
+
+.wrapper .right .title::first-letter {
+  text-transform: capitalize;
+}
+
+.wrapper .right .subtitle {
+  font-size: 9px;
+  color: #72bdfc;
+  font-weight: 500;
+  margin: 7px 0 0 37px;
+}
+
+.wrapper .right .defaultButton {
+  border: none;
+  min-width: 100px;
+  height: 26px;
+  margin-left: 35px;
+  margin-top: 20px;
+  padding: 13px;
+  text-transform: uppercase;
+  font-size: 8px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 3px;
+  font-weight: 500;
+  letter-spacing: 1.2;
+}
+
+.wrapper .right .primaryButton {
+  color: black;
+  background-color: #f1f9ff;
+  border: #c5e4fd solid 3px;
+  color: #4cabfb;
+}
+
+.wrapper .right .actionButton {
+  color: #d6ecfe;
+  background-color: #2699fb;
+  border: #2699fb solid 3px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=Main.module.css.map */
